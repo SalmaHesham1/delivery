@@ -1,0 +1,43 @@
+name: delivery
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  #localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  #A flutter plugin for adapting screen and font size.
+  flutter_screenutil: ^5.9.0
+  # Customizable animated page indicator with a set of built-in effects.
+  smooth_page_indicator: ^1.1.0
+  #state management
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+          weight: 400
+flutter_intl:
+  enabled: true
